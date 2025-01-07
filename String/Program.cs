@@ -22,9 +22,8 @@ namespace String
         // static void Main(string[] args)
         // {
         //     // var price = 10.2;
-        //     // // var texto = "O preço do produto é: " + price; // concatenação
-        //     // // var texto = string.Format("O preço do produto é {0} apenas na promoção {1}", price, true); // formata uma string
-        //     // // se adicionar um @ após o código entende que é como uma continuação, e não quebra a linha dando erro. :)
+        //     // // var texto = "O preço do produto é: " + price; 
+        //     // // var texto = string.Format("O preço do produto é {0} apenas na promoção {1}", price, true); 
         //     // var texto = $@"O preço 
         //     // do produto é {price}";
 
@@ -36,9 +35,9 @@ namespace String
         // {
         //     var texto = "Este texto é um teste";
 
-        //     Console.WriteLine(texto.CompareTo("Este texto é um teste")); // para comparar com algum objeto
-        //     Console.WriteLine(texto.Contains("teste")); // para saber se a string contém um pedaço de texto (no exemplo, se contem a palavra teste no texto "Este texto é um teste")
-        //     Console.WriteLine(texto.Contains("Teste", StringComparison.OrdinalIgnoreCase)); // Ignora o fato da palavra ser maiuscula ou minuscula
+        //     Console.WriteLine(texto.CompareTo("Este texto é um teste")); 
+        //     Console.WriteLine(texto.Contains("teste")); 
+        //     Console.WriteLine(texto.Contains("Teste", StringComparison.OrdinalIgnoreCase)); 
         // }
 
 
@@ -64,9 +63,9 @@ namespace String
         // {
         //     var texto = "Este texto é um teste";
 
-        //     Console.WriteLine(texto.Equals("Este texto é um teste")); // se for exatamente igual ao valor do texto retorna true, caso contrário, false.
+        //     Console.WriteLine(texto.Equals("Este texto é um teste")); 
         //     Console.WriteLine(texto.Equals("este texto é um teste"));
-        //     Console.WriteLine(texto.Equals("este texto é um teste", StringComparison.OrdinalIgnoreCase));// True, pq ignora maiusculo ou minusculo, deixando igual
+        //     Console.WriteLine(texto.Equals("este texto é um teste", StringComparison.OrdinalIgnoreCase));
         // }
 
 
@@ -75,8 +74,8 @@ namespace String
         // static void Main(string[] args)
         // {
         //     var texto = "Este texto é um teste";
-        //     Console.WriteLine(texto.IndexOf("é")); // revela a posição do objeto
-        //     Console.WriteLine(texto.LastIndexOf("s")); // revela último indice que ele encontrar de uma letra ou palavra
+        //     Console.WriteLine(texto.IndexOf("é")); 
+        //     Console.WriteLine(texto.LastIndexOf("s")); 
 
         // }
 
@@ -119,8 +118,8 @@ namespace String
 
         static void Main(string[] args)
         {
-            var texto = new StringBuilder(); // construir
-            texto.Append("Este texto é um teste"); //anexar o texto
+            var texto = new StringBuilder();
+            texto.Append("Este texto é um teste");
             texto.Append("Este texto");
             texto.Append(" é um teste");
             texto.Append("é um ");
