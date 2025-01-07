@@ -18,10 +18,8 @@ namespace Stopwatch
             Console.WriteLine("0 = Sair");
             Console.WriteLine("Quanto tempo deseja contar?");
 
-            // ToLower vai converter tudo para minusculo. EX.: 10SEGUNDOS -> 10segundos
+            // ToLower vai converter para minusculo. EX.: 10SEGUNDOS -> 10segundos
             string data = Console.ReadLine().ToLower();
-            //Length vai trazer toda a quantidade de caracteres que o usuario digitou
-            // Substring usado para extrair uma parte de uma string, "pegar um pedaço da string"
             char type = char.Parse(data.Substring(data.Length - 1, 1)); // Todos os caracteres -1
             int time = int.Parse(data.Substring(0, data.Length - 1));
             int multiplier = 1;

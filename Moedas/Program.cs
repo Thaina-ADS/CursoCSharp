@@ -15,7 +15,7 @@ namespace Numbers
             Console.WriteLine(Math.Floor(valor)); // arredonda p baixo
 
             // FORMATANDO MOEDAS -----------------------
-            //Console.WriteLine(valor.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))); // "C" conversao para R$ (currency)
+            //Console.WriteLine(valor.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))); 
 
 
         }

@@ -30,7 +30,7 @@ namespace Calculator
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
-                // System.Environment.Exit - para sair do sistema (0) zero para sempre qnd sair com
+                // System.Environment.Exit 
                 case 5: System.Environment.Exit(0); break;
                 default: Menu(); break;
             }

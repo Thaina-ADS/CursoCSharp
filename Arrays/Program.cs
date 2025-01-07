@@ -51,9 +51,6 @@ namespace Numbers
 
 }
 
-
-
-// MANEIRA MAIS DEMORADA
 // Console.WriteLine(meuArray[0]);
 // Console.WriteLine(meuArray[1]);
 // Console.WriteLine(meuArray[2]);

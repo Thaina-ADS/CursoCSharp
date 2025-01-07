@@ -8,8 +8,8 @@ namespace Datas
         static void Main(string[] args)
         {
             Console.Clear();
-            // var data = new DateTime(2025, 01, 02, 10, 26, 00); // criar uma data especificando valores
-            // var data = DateTime.Now; // data e hora atual
+            // var data = new DateTime(2025, 01, 02, 10, 26, 00); 
+            // var data = DateTime.Now; 
 
             // Console.WriteLine(data);
             // Console.WriteLine(data.Year);
@@ -55,7 +55,7 @@ namespace Datas
 
             // var data = DateTime.Now;
 
-            // if (data.Date == DateTime.Now.Date) // comparando só a data
+            // if (data.Date == DateTime.Now.Date) 
             // {
             //     Console.WriteLine("É igual!");
             // }
@@ -69,7 +69,7 @@ namespace Datas
             // var br = new CultureInfo("pt-BR");
             // var en = new CultureInfo("en-US");
             // var de = new CultureInfo("en-DE");
-            // var atual = CultureInfo.CurrentCulture; // cultura da maquina 
+            // var atual = CultureInfo.CurrentCulture; 
 
             // Console.WriteLine(DateTime.Now.ToString("D", atual));
             // // Console.WriteLine(string.Format("{0:D}", DateTime.Now));
@@ -79,7 +79,7 @@ namespace Datas
 
             // Console.Clear();
 
-            // var utcDate = DateTime.UtcNow; // hora base "horario global", sem timezone -3 horas, +3 horas etc... a depender do lugar
+            // var utcDate = DateTime.UtcNow; 
 
             // Console.WriteLine(DateTime.Now);
             // Console.WriteLine(utcDate);
